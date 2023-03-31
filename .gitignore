@@ -1,0 +1,9 @@
+# IntelliJ generated files
+/.idea/
+*.iml
+
+# Maven generated files with potentially sensitive data
+/target/maven-status/
+/target/surefire-reports/
+# Project exclude paths
+/target/
