@@ -1,5 +1,8 @@
 package main;
 
+import ui.Updater;
+import ui.Window;
+
 /**
  * The main
  *
@@ -11,11 +14,11 @@ package main;
  *  * simple ui
  *  * simple graphics
  *  * simple data and calculations
+ *  * check and organize imports
  */
 public class Main {
-
     //
     public static void main(String[] args) {
-        System.out.println("main");
+        new Updater(new Window()).start();
     }
 }
